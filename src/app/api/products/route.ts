@@ -1,4 +1,4 @@
-import {stripe} from '@/utils/stripe'
+import {stripe} from '@/utils/index'
 import { NextRequest } from 'next/server';
 
 export async function GET(req: NextRequest){
